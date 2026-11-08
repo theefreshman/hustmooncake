@@ -1,0 +1,45 @@
+{
+  "description": "SHA-256 of original locally archived files before any newline normalization. Large source logs and per-request data remain in the local archive. Included scripts/configuration use LF and may therefore have different byte hashes.",
+  "files": [
+    {
+      "file": "result.json",
+      "bytes": 53552740,
+      "sha256": "f669be67101b4da68de6b23430a5705405525258d54283fce499434c17e11a3e"
+    },
+    {
+      "file": "master.log",
+      "bytes": 251155183,
+      "sha256": "ebf8d4eef59b07bdb30cb032c5054e297c0c4019be3757975f607c4f2d2ddd58"
+    },
+    {
+      "file": "vllm.log",
+      "bytes": 2202683,
+      "sha256": "2c8e8723fda975edd08f5964adf6832709acbeb1d9ea2ab0947f6b92df8dae93"
+    },
+    {
+      "file": "benchmark.log",
+      "bytes": 204369,
+      "sha256": "9415081e3baec83c9d6b29e4a99464773cba4af2ea48bf76c1b7bb820a63d529"
+    },
+    {
+      "file": "benchmark.exit",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "file": "start-vllm.sh",
+      "bytes": 636,
+      "sha256": "f2ad1e852438cffee7515fe009d956a88f37c0679934300b60665530925a7d84"
+    },
+    {
+      "file": "run_full.sh",
+      "bytes": 1158,
+      "sha256": "0816528e6e46be5b6015c9016b94210d4ff0ea97680d745d1da1dd3a1f8480ae"
+    },
+    {
+      "file": "mooncake.json",
+      "bytes": 285,
+      "sha256": "143a34039615892937ea97cca91c265ec67b83047c5d3946b99a2a85ed0cb919"
+    }
+  ]
+}

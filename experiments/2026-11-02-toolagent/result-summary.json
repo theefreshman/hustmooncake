@@ -1,0 +1,34 @@
+{
+  "date": "20261102-091352",
+  "endpoint_type": "openai",
+  "backend": "openai",
+  "model_id": "store-llama",
+  "tokenizer_id": "/models/Meta-Llama-3.1-8B-Instruct",
+  "num_prompts": 23608,
+  "request_rate": "inf",
+  "burstiness": 1.0,
+  "max_concurrency": null,
+  "duration": 8334.607383264229,
+  "completed": 1702,
+  "failed": 21906,
+  "total_input_tokens": 16425031,
+  "total_output_tokens": 326925,
+  "request_throughput": 0.2042087793382555,
+  "output_throughput": 39.22500304650951,
+  "total_token_throughput": 2009.927430251566,
+  "max_concurrent_requests": 1015,
+  "mean_ttft_ms": 3491637.4624428623,
+  "median_ttft_ms": 4237099.461785518,
+  "p99_ttft_ms": 5203112.280490566,
+  "error_counts": [
+    {
+      "last_line": "aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host 127.0.0.1:18148 ssl:default [Too many open files]",
+      "count": 21905
+    },
+    {
+      "last_line": "Never received a valid chunk to calculate TTFT.This response will be marked as failed!",
+      "count": 1
+    }
+  ],
+  "scope_note": "Failed replay. Reported performance describes this run only; it is not a validated performance baseline. Error counts use the final line of each nonempty result.json errors entry."
+}

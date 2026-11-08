@@ -1,0 +1,1 @@
+{"metadata_server": "P2PHANDSHAKE", "protocol": "ascend", "device_name": "", "master_server_address": "127.0.0.1:50148", "global_segment_size": "32GB", "local_buffer_size": "128MB", "enable_ssd_offload": true, "ssd_offload_path": "/root/mooncake-ws/toolagent-full-fixed-20261102/ssd"}
